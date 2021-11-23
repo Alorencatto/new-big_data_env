@@ -69,6 +69,7 @@ services:
       - ./base/hadoop/hadoop-hive.env
     ports:
       - "50070:50070"
+      - "8020:8020"
     deploy:
       resources:
         limits:
